@@ -1,0 +1,9 @@
+h1{
+    color: aqua;
+}
+h2 {
+    color: brown;
+}
+h3 {
+    margin-left: 0.90em;       <!-- to have spacing from any sides, here understanding of value meaning is very imp. -->   
+}
