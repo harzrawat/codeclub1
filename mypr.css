@@ -2,7 +2,7 @@
     color: darkmagenta;
 }
 body{
-    background: lightgoldenrodyellow url("./images/penbook1.png") no-repeat center;
+    background: lightgoldenrodyellow url("./images/penbook1.png") no-repeat center; background-attachment: fixed;
 }
 li{
     font-size: 100x; color: rgb(241, 46, 46);
