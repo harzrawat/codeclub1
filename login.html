@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body style="background: lightsalmon;">
+    <form action="">
+        <div>
+            <h1 style="background: yellowgreen;">Login Portal</h1>
+        </div>
+        <section id="sec1">
+            <p>
+                <fieldset>
+                    <h3>FName : <input type="text" name="Name" required></h3>
+                    <h3>LName : <input type="text" name="Name" required></h3>
+                    <h3>DOB : <input type="date" name="DOB" required></h3>
+                    <fieldset>
+                        <legend style="font-size: 3ex;">Gender</legend>
+                        <p>Male <input type="radio" name="gender" required></p>
+                        <p>Female <input type="radio" name="gender" required></p>
+                    </fieldset>
+                    <p style="font-size: 3ex;">Address : <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                    </p>
+                    <h3>email id: <input type="text" name="id" required></h3>
+                </fieldset>
+            </p>
+            <hr>
+    
+        </section>
+        <section id="sec2">
+            <h2>Payment Info</h2>
+            <fieldset>
+                <p>Card Type
+                    <select name="cardtype" id="cardtype" required>
+                        <option value="">--choose the card type--</option>
+                        <option value="master card">Master Card</option>
+                        <option value="rupay">Rupay</option>
+                        <option value="visa">VISA</option>
+                    </select>
+                </p>
+                <p>
+                    Card number:
+                    <input type="number" name="card number" required>
+                </p>
+                <p>Exp date:
+                    <input type="date" name="exp date" required>
+                </p>
+                <p>CVV:
+                    <input type="password" name="cvv" required>
+                </p>
+                <input type="submit" value="Pay" style="background: yellow; height: 30px; width: 90px; font-size: 3ex ;" >
+
+                <input type="reset" value="Reset" style="background: yellow; height: 30px; width: 90px; font-size: 3ex;">
+    
+            </fieldset>
+    
+        </section>
+    </form>
+    <nav style="background: black;">
+        
+    </nav>
+    
+</body>
+</html>

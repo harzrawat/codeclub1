@@ -4,3 +4,21 @@
 body{
     background: lightgoldenrodyellow url("./penbook1.png") no-repeat center;
 }
+li{
+    font-size: 100x;
+}
+td{
+    color: black;
+}
+td a{
+    color: blue; font-size: 3ex;
+}
+tr{
+    font-size: 3ex;
+}
+li{
+    font-size: 3ex; background-color: white;
+}
+h3{
+    background-color: black; fon
+}
