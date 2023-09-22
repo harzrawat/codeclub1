@@ -2,10 +2,10 @@
     color: darkmagenta;
 }
 body{
-    background: lightgoldenrodyellow url("./penbook1.png") no-repeat center;
+    background: lightgoldenrodyellow url("./images/penbook1.png") no-repeat center;
 }
 li{
-    font-size: 100x;
+    font-size: 100x; color: rgb(241, 46, 46);
 }
 td{
     color: black;
