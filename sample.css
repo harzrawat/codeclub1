@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(165, 228, 70);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+p {
+    margin:0.3em;   <!-- for spacing between one to other text elements -->
+}
+
+.name, .education, .hobbies, .activities {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(238, 9, 211, 0.1);
+}
